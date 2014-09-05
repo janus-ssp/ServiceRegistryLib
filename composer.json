@@ -7,6 +7,10 @@
         "psr-4": { "Janus\\ServiceRegistry\\": "src/" }
     },
     "require": {
-        "php": ">=5.3.3"
+        "php"               : ">=5.3.3",
+        "doctrine/orm"      : "~2.2.3",
+        "jms/serializer"    : "~0.13",
+        "symfony/yaml"      : "~2.3.0",
+        "symfony/validator" : "~2.3.0"
     }
 }
