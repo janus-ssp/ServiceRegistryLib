@@ -1,0 +1,12 @@
+{
+    "name": "janus-ssp/serviceregistry",
+    "description": "JANUS core library",
+    "license": "Apache-2.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": { "Janus\\ServiceRegistry\\": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3"
+    }
+}
